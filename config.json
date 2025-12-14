@@ -1,0 +1,20 @@
+{
+  "credentials_file": "cred.json",
+  "data_file": "mcLinks.csv",
+  "logs_directory": "Logs",
+  "google_sheet_name": "hnrtestdb",
+  "telegram_bots": {
+    "bullish_50": {
+      "token": "7688618254:AAEzkjBPcglzYu_x-grL81twDwoOdMC9s38",
+      "chat_id": "-1002365501285"
+    },
+    "bullish_500": {
+      "token": "7436753626:AAHyZ5E3BhVCqtK0x-Ih53_oTX1hXrIT8NM",
+      "chat_id": "-1002165307620"
+    },
+    "increasing_trend": {
+      "token": "6657875319:AAHmu1dpcGQ022xxJ7S_KCKXz2N52X6esxE",
+      "chat_id": "@AlertzChannel"
+    }
+  }
+}
