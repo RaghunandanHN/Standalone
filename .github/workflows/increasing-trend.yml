@@ -3,7 +3,8 @@ name: Run Increasing Trend Screener
 on:
   schedule:
     - cron: '*/5 * * * *'
-
+  workflow_dispatch:
+  
 jobs:
   run-screener:
     runs-on: ubuntu-latest
